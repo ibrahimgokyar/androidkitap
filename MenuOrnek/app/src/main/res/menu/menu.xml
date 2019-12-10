@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Toast Göster"
+        android:id="@+id/Toastshow"
+        />
+    <item android:title="ProgresDialog Göster"
+        android:id="@+id/progresshow"
+        />
+    <item android:title="Do nothing"
+        android:id="@+id/donothing"
+        />
+</menu>
