@@ -1,0 +1,82 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:shrinkColumns="*"
+    android:stretchColumns="*" >
+
+    <TableRow
+        android:id="@+id/satir1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_weight="1"
+            android:background="#0470d9"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="satir1 sütun1"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_weight="1"
+            android:background="#d3d3d3"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Satir 1 sütun 2 "
+            android:textColor="#000000" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/satir2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_weight="1"
+            android:background="#0470d9"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="satir2 sütun1"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_weight="1"
+            android:background="#d3d3d3"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="Satir 2 sütun 2 "
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_weight="1"
+            android:background="#cac9c9"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="sütun 3"
+            android:textColor="#000000" />
+    </TableRow>
+
+    <!-- tek sütunlu satir -->
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:gravity="center"
+            android:padding="20dip"
+            android:text="satir 3 sütun 1"
+            android:textColor="#ffffff" />
+    </TableRow>
+
+</TableLayout>

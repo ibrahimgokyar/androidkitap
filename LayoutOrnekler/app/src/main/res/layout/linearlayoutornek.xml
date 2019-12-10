@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".33"
+        android:background="#FF0000"
+        android:textSize="25sp"
+        android:text="Kırmızı" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".33"
+        android:background="#00aa00"
+        android:textSize="45sp"
+        android:text="Yeşil" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".33"
+        android:background="#0000FF"
+        android:textSize="45sp"
+        android:text="Mavi"
+        android:textColor="#0000aa"
+        />
+
+
+</LinearLayout>
